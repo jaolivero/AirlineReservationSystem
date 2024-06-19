@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Airport {
 
-    String name;
+    private String name;
     String address;
     String number;
     List<Flight> flight = new ArrayList<>();
